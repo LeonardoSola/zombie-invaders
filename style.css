@@ -1,0 +1,37 @@
+body{
+    background-image: url('./background.jpg');
+    background-size: cover;
+}
+#screen{
+    border: 10px solid #CCC;
+    image-rendering: pixelated;
+    image-rendering: crisp-edges;
+    image-rendering: -moz-crisp-edges;
+    width: 400px;
+    height: 400px;
+    background-color: white;
+}
+.oJogo{
+    display: flex;
+    flex: 1;
+    justify-content: left;
+}
+#hub{
+    margin-left: 20px;
+    text-align: left;
+    width: 200px;
+    min-width: 200px;
+}
+#card-body{
+    padding-top: 0px;
+    line-height: 5px;
+}
+#telaDoGame{
+    position: absolute;
+    border-radius: 30px;
+    top: 5%;
+    left: 30%;
+    background-color:rgb(207, 207, 207);
+    padding-left: 1%;
+    padding-top: 1%;
+}
